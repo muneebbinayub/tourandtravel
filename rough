@@ -1,0 +1,3 @@
+{
+  month, depDate, ArrDate, madinahHotel, makkahHotel, Price, duration, type;
+}
