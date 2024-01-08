@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import Packages from "./ui/Packages";
 import Experience from "./ui/Experience";
 import Explore from "./ui/Explore";
+import Questions from "./Questions";
+import Frequent from "./ui/Frequent";
 
 const Hero = () => {
   useEffect(() => {
@@ -49,6 +51,8 @@ const Hero = () => {
       <Packages></Packages>
       <Experience></Experience>
       <Explore></Explore>
+      <Questions/>
+      {/* <Frequent/> */}
     </div>
   );
 };

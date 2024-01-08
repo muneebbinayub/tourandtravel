@@ -16,10 +16,10 @@ export const Navbar = () => {
         <div className="right">
           <ul className="flex items-center justify-center gap-12 text-white">
             <li>
-              <Link>Home</Link>
+              <Link to={"/hero"}></Link>
             </li>
             <li>
-              <Link>Umrah</Link>
+              <Link to={"/umrah"}>Umrah</Link>
             </li>
             <li>
               <Link>Hajj</Link>

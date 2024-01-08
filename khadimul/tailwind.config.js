@@ -11,7 +11,8 @@ export default {
         secoundary:"#b4e466",
         third:"#eef5ff",
         grey:"#b9b9b9",
-        line:"#053889"
+        line:"#053889",
+        dark:"#043685"
       },
       fontFamily:{
         "rowdies":['Rowdies', 'sans-serif']
@@ -24,9 +25,11 @@ export default {
       },
       height:{
         45:"47%",
+        50:"230px",
         60:"60%",
         43:"43%",
-        70:"70vh"
+        70:"70vh",
+        100:"100%"
       }
     },
   },
